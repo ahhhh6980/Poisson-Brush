@@ -13,3 +13,5 @@ right image is the source, it will clone from the anchor point you set with midd
 left click to draw, right click to erase
 
 on initial load, the fft wont do a good job, so you simply have to load the image again and you'll be set :)
+
+![](https://ninja.dog/mQorTS.png)
