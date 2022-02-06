@@ -1,6 +1,6 @@
 # Poisson-Brush
 
-This project is a bit messy right now
+This project is a bit messy right now, and it's definitely far from polished
 
 This acts as a sort of clone tool, using the gradient domain to seamlessly paste
 I deconvolve the gradient in the frequency domain to get back the original image, or the closest it can to the original image
