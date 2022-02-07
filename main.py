@@ -1,4 +1,3 @@
-
 # PoissonBrush
 # Main File
 # (C) 2022 by Jacob (ahhhh6980@gmail.com)
@@ -27,6 +26,8 @@ from tkinter import filedialog
 import tkinter.font as font
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from PIL import Image, ImageTk, ImageFilter, ImageEnhance, ImageOps
+
+script_dir = os.getcwd()
 
 def gradient(img):
     # Pad with 0's to preserve basis
@@ -148,6 +149,7 @@ def reconstruct(img, oimg):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+        img_path = script_dir+'/lenna.png'
         greenF = ""
         greenFRun = False
         self.iterat = 0

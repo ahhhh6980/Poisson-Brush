@@ -1,5 +1,7 @@
 # Poisson-Brush
 
+pip install -r requirements.txt
+
 This project is a bit messy right now, and it's definitely far from polished
 
 This acts as a sort of clone tool, using the gradient domain to seamlessly paste
