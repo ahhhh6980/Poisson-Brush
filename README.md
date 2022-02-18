@@ -16,4 +16,10 @@ right image is the source, it will clone from the anchor point you set with midd
 
 - on initial load, the fft wont do a good job, so you simply have to load the image again and you'll be set :)
 
+# To-Do:
+- [X] Implement FFTW to replace NumPy for a faster integration of the image
+- [ ] Compute the derivate, paste, and integral only in the region where pixels are copied, not the whole image
+- [ ] Find better examples of ways to use this
+- [ ] Make the UI prettier
+
 ![](https://ninja.dog/mQorTS.png)
